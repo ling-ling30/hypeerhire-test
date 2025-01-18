@@ -66,7 +66,7 @@ export default function Carousel({ slides }: Props) {
       </FadeIn>
       <FadeIn>
         <EmployeeCard
-          className="bg-[#EDFCFF] xl:scale-[0.89] xl:translate-x-[54%] translate-x-[84%] scale-[70%]"
+          className="bg-[#EDFCFF] xl:scale-[0.89] xl:translate-x-[54%] translate-x-[85%] scale-[70%]"
           {...slides[currentIndex === 0 ? totalLength : currentIndex - 1]}
         />
       </FadeIn>
@@ -77,7 +77,7 @@ export default function Carousel({ slides }: Props) {
 
       <FadeIn>
         <EmployeeCard
-          className="bg-[#EDFCFF] xl:scale-[0.89] xl:-translate-x-[54%] -translate-x-[84%] scale-[70%]"
+          className="bg-[#EDFCFF] xl:scale-[0.89] xl:-translate-x-[54%] -translate-x-[85%] scale-[70%]"
           {...slides[currentIndex === totalLength ? 0 : currentIndex + 1]}
         />
       </FadeIn>
