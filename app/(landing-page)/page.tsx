@@ -43,7 +43,7 @@ const slide = [
   },
 ];
 
-export default function Home() {
+export default function MarketingLine() {
   return (
     <section className="text-white xl:pt-[190px]  pb-[100px] font-black pt-[96px] tracking-tighter 2xl:pl-[355px] xl:[200px] lg:pl-[150px] md:pl-[100px] sm:pl-[50px] px-3">
       <FadeIn delay={0.3}>
